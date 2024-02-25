@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { PaymentRoutes } from './presentation/payment/routes';
-import { WebhookRoutes } from './presentation/webhook/routes';
+import { PaymentRoutes } from './payment/routes';
+import { WebhookRoutes } from './webhook/routes';
 
 
 
