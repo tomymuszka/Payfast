@@ -29,7 +29,7 @@ export class PreferenceDTO {
     validateItems() {
 
       this.items.forEach(item => {
-        if (!item.id || !item.title || item.quantity <=  0 || item.unit_price <=  0 || !item.currency_id || !item.description) {
+        if ( !item.title || item.quantity <=  0 || item.unit_price <=  0 || !item.currency_id || !item.description) {
           throw new Error('Invalid item data');
         }
 
